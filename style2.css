@@ -7,7 +7,7 @@
         padding: 3rem 10rem;
      }
     .main-box{
-        height: 40vh;
+        height: 80vh;
     }
     .main-box img{
         width: 350px;
@@ -26,7 +26,7 @@
     }
     .main-box{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        height: 40vh;
+        height: 80vh;
      }
      .main-box img{
         width: 250px;
@@ -89,7 +89,7 @@
     /* MAIN SECTION STYLE */
     .main-box{
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-        height: 60vh;
+        height: 80vh;
      }
      .main-box img{
         width: 400px;
@@ -104,7 +104,7 @@
      /* MAIN SECTION STYLE */
      .main-box{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        height: 60vh;
+        height: 80vh;
         gap: 0rem;
      }
      section{
@@ -116,6 +116,8 @@
     #order{
         padding: 2rem;
     }
+    .header{
+        padding: 1rem 1rem;
 }
 
 @media screen and (max-width: 420px){
@@ -125,7 +127,7 @@
      /* MAIN SECTION STYLE */
      .main-box{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        height: 50vh;
+        height: 80vh;
         gap: 0rem;
      }
      section{
@@ -143,7 +145,7 @@
      /* MAIN SECTION STYLE */
      .main-box{
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        height: 50vh;
+        height: 80vh;
         gap: 0rem;
      }
     
