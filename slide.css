@@ -1,0 +1,30 @@
+.slideshow-box{
+    max-width: 100vw;
+    position: relative;
+    margin: auto;
+}
+.slide{
+    display: none;
+}
+.slide{
+    animation-name: slide;
+    animation-duration: 1.5s;
+}
+@keyframes slide {
+    from { opacity: .4;}
+    to { opacity: 1;} 
+}
+.dot-box{
+    text-align: center;
+
+}
+.dot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: var(--gray);
+    border-radius: 50%;
+}
+.dot.active{
+    background-color: var(--light);
+}
